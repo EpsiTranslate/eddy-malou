@@ -123,6 +123,15 @@ var dictionary = {
   "territoire": "terrain appartenant au chef congolais"
 };
 
+/* todo
+“les mathématiques” : “la science du calcul”
+“l’avatar” : “la virtualisation d’un personnage”
+
+“livre” : “pages lectibles par la vue humanoïde”
+
+“univers” : “ensemble de l’univéralité des systèmes”
+*/
+
 function replaceTextOnPage(obj){
   getAllTextNodes().forEach(function(node){
     for (var x in obj) {
