@@ -2,8 +2,14 @@
 
 ![Banner](banner.jpg "Eddy Malou s'explique")
 
-Bievenue dans la politique prépositionnelle de la technicité IINN... INformatisé, n'est-ce pas ?
+Bienvenue dans la politique prépositionnelle de la technicité IINNNformatisé, n'est-ce pas ?
 
-Cette extension magique, qui réunit tout le SAVOIIR.
+Cette extension magique, qui réunit tout le SAVOIIR de la République Démocratique du Congo, saura vous convaincre !
 
-De la République Démocratique du Congo, saura vous convaincre !
+##L'équipe
+  - Eddy Malou
+  - Malo Blanchard
+  - Romain Baumier
+  - Nathan Badaud
+  - Walrand Degeorges
+  - Julien Leroy
