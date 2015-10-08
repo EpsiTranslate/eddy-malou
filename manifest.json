@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Eddy Malou",
+  "version": "0.3",
+  "description": "L'extension officielle de la congolexicomatisation des lois du marché !",
+  "author": "Malo Blanchard, Romain Baumier, Nathan Badaud, Walrand Degeorges, Julien Leroy",
+  "content_scripts": [{
+    "matches": [
+      "<all_urls>"
+    ],
+    "js": ["congolexicomatisation.js"]
+  }],
+  "icons": {
+    "128": "icon.png"
+  }
+}
