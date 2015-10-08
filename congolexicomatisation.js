@@ -83,6 +83,7 @@ var dictionary = {
   "y.": "y, de toute évidence.",
   "t.": "t, bien entendu.",
   "r.": "r, par la rénaque !",
+  "s.": "s, sans erreur !",
   "encore ": "avec conviction, manifestation, ultimisme ",
   "montagne": "motte de terre sur-élevée",
   "présentation": "démonstration ovarique",
@@ -120,7 +121,11 @@ var dictionary = {
   "passe": "",
   "température": "températion climatologique",
   "supermarché": "lieu de regroupement des brebis",
-  "territoire": "terrain appartenant au chef congolais"
+  "territoire": "terrain appartenant au chef congolais",
+  "un voyage": "une vectorisation des trajets",
+  "le voyage": "la vectorisation des trajets",
+  "les voyages": "les vectorisations des trajets",
+  "le crayon": "le dispenseur de savoir sur papier congolexifié"
 };
 
 /* todo
