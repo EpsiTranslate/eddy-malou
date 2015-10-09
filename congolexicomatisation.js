@@ -1,4 +1,36 @@
-var dictionary = {
+(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
+'use strict'
+
+var dictionary = require('./dictionary');
+
+function replaceTextOnPage(obj){
+  getAllTextNodes().forEach(function(node){
+    for (var x in obj) {
+      node.nodeValue = node.nodeValue.replace(new RegExp(quote(x), 'g'), obj[x]);
+    }
+  });
+  function getAllTextNodes(){
+    var result = [];
+    (function scanSubTree(node){
+      if(node.childNodes.length)
+        for(var i = 0; i < node.childNodes.length; i++)
+          scanSubTree(node.childNodes[i]);
+      else if(node.nodeType == Node.TEXT_NODE)
+        result.push(node);
+    })(document);
+    return result;
+  }
+  function quote(str){
+    return (str+'').replace(/([.?*+^$[\]\\(){}|-])/g, "\\$1");
+  }
+}
+
+replaceTextOnPage(dictionary);
+
+},{"./dictionary":2}],2:[function(require,module,exports){
+'use strict';
+
+module.exports = {
   " comparer": " comparer la rénaque",
   " c'est à dire": " hein, c'est à dire",
   " c'est-à-dire": " hein, c'est à dire",
@@ -83,7 +115,6 @@ var dictionary = {
   "y.": "y, de toute évidence.",
   "t.": "t, bien entendu.",
   "r.": "r, par la rénaque !",
-  "s.": "s, sans erreur !",
   "encore ": "avec conviction, manifestation, ultimisme ",
   "montagne": "motte de terre sur-élevée",
   "présentation": "démonstration ovarique",
@@ -105,7 +136,7 @@ var dictionary = {
   "les mathématiques": "la science du savoir logique de la République Démocratique du Congo",
   "l'avatar": "la virtualisation de la personne",
   "culmine": "atteint les lumières",
-  "sommet": "haut de l'élément"
+  "sommet": "haut de l'élément",
   "route": "ligne continuelle",
   "une colline": "un demi-tas de terre congolexifié",
   "les colline": "les demi-tas de terre congolexifiés",
@@ -121,12 +152,7 @@ var dictionary = {
   "passe": "",
   "température": "températion climatologique",
   "supermarché": "lieu de regroupement des brebis",
-  "territoire": "terrain appartenant au chef congolais",
-  "un voyage": "une vectorisation des trajets",
-  "le voyage": "la vectorisation des trajets",
-  "les voyages": "les vectorisations des trajets",
-  "le crayon": "le dispenseur de savoir sur papier congolexifié"
-};
+  "territoire": "terrain appartenant au chef congolais"
 
 /* todo
 “les mathématiques” : “la science du calcul”
@@ -136,27 +162,6 @@ var dictionary = {
 
 “univers” : “ensemble de l’univéralité des systèmes”
 */
+};
 
-function replaceTextOnPage(obj){
-  getAllTextNodes().forEach(function(node){
-    for (var x in obj) {
-      node.nodeValue = node.nodeValue.replace(new RegExp(quote(x), 'g'), obj[x]);
-    }
-  });
-  function getAllTextNodes(){
-    var result = [];
-    (function scanSubTree(node){
-      if(node.childNodes.length)
-        for(var i = 0; i < node.childNodes.length; i++)
-          scanSubTree(node.childNodes[i]);
-      else if(node.nodeType == Node.TEXT_NODE)
-        result.push(node);
-    })(document);
-    return result;
-  }
-  function quote(str){
-    return (str+'').replace(/([.?*+^$[\]\\(){}|-])/g, "\\$1");
-  }
-}
-
-replaceTextOnPage(dictionary);
+},{}]},{},[1]);
