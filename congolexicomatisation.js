@@ -9,7 +9,7 @@ var dictionary = {
   " test": " essai nucléaristique",
   " tests": " tentatives de diplomatie par l'animal",
   " dynamiser": " incrystaliser",
-  " imposer": " intentioner",
+  " imposer": " imposer, iiiiinnnnntentionner",
   " lois du marché": " congolexicomatisation des lois du marché",
   " de rien": " je vous en prie",
   " rollers": " rowllèr",
@@ -125,7 +125,17 @@ var dictionary = {
   "un voyage": "une vectorisation des trajets",
   "le voyage": "la vectorisation des trajets",
   "les voyages": "les vectorisations des trajets",
-  "le crayon": "le dispenseur de savoir sur papier congolexifié"
+  "le crayon": "le dispenseur de savoir sur papier congolexifié",
+  "savant": "savant de la république",
+  "papa": "papa du savant de la république",
+  "estime": "estime du savoir",
+  "connaissent": "connaissent beaucoup de choses",
+  "connait": "connait beaucoup de choses",
+  "revenu": "revenu aussi à voir, hein!",
+  "revenus": "revenus aussi à voir, hein!",
+  "par exemple": "par exemple, le Brésil!",
+  "connaissez": "connaissez comment ça se pratique?",
+  " sens ": " sens qui doivent tourner "
 };
 
 /* todo
