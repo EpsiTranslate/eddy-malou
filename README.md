@@ -7,8 +7,10 @@ Bienvenue dans la politique prépositionnelle de la technicité IINNNformatisé,
 Cette extension magique, qui réunit tout le SAVOIIR de la République Démocratique du Congo, saura vous convaincre !
 
 ##Génération du fichier
-  npm install -g browserify
-  browserify src/core.js congolexicomatisation.js
+```sh
+  $ npm install -g browserify
+  $ browserify src/core.js congolexicomatisation.js
+```
 
 ##L'équipe
   - Eddy Malou
