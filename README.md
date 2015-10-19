@@ -9,7 +9,7 @@ Cette extension magique, qui réunit tout le SAVOIIR de la République Démocrat
 ##Génération du fichier
 ```sh
   $ npm install -g browserify
-  $ browserify src/core.js congolexicomatisation.js
+  $ browserify src/core.js -o congolexicomatisation.js
 ```
 
 ##L'équipe
