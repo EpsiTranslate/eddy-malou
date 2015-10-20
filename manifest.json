@@ -3,7 +3,7 @@
   "name": "Eddy Malou",
   "version": "0.3",
   "description": "L'extension officielle de la congolexicomatisation des lois du marché !",
-  "author": "Malo Blanchard, Romain Baumier, Nathan Badaud, Walrand Degeorges, Julien Leroy",
+  "author": "Malo Blanchard, Romain Baumier, Nathan Badaud, Walrand Degeorges, Julien Leroy, Arthur Rousseau",
   "content_scripts": [{
     "matches": [
       "<all_urls>"
