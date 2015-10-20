@@ -1,4 +1,4 @@
-#Eddy Malou [![Build Status](https://travis-ci.org/4rthurRousseau/eddy-malou.svg?branch=master)](https://travis-ci.org/4rthurRousseau/eddy-malou)
+#Eddy Malou [![Build Status](https://travis-ci.org/MaloBlanchard/eddy-malou.svg?branch=master)](https://travis-ci.org/MaloBlanchard/eddy-malou)
 
 ![Banner](banner.jpg "Eddy Malou s'explique")
 
