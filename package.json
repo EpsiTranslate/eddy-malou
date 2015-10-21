@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "browserify -o core.js congolexicomatisation.js"
+    "build": "sh scripts/start.sh",
+    "start": "echo \"Nothing to do\" && exit 1"
   },
   "repository": {
     "type": "git",

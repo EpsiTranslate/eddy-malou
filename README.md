@@ -12,7 +12,7 @@ NodeJS >= 0.10
 ##Génération du fichier
 ```sh
   $ npm install -g browserify
-  $ browserify src/core.js -o congolexicomatisation.js
+  $ npm build
 ```
 
 ##L'équipe
