@@ -1,6 +1,4 @@
-'use strict';
-
-module.exports = {
+module.export = {
 	" C'est plus":" C++",
 	" OCaml":" au calme",
 	" accumuler":" transdiffuser l'accumulation",
