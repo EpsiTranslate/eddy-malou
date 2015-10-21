@@ -13,6 +13,7 @@ NodeJS >= 0.10
 ```sh
   $ npm install -g browserify
   $ browserify src/core.js -o congolexicomatisation.js
+```
 
 ##L'équipe
   - Eddy Malou
