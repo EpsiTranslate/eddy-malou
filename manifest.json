@@ -11,6 +11,6 @@
     "js": ["congolexicomatisation.js"]
   }],
   "icons": {
-    "128": "icon.png"
+    "128": "img/icon-128.png"
   }
 }
