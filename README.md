@@ -1,4 +1,4 @@
-#Eddy Malou [![Build Status](https://travis-ci.org/MaloBlanchard/eddy-malou.svg?branch=master)](https://travis-ci.org/MaloBlanchard/eddy-malou)
+#Eddy Malou [![Build Status](https://travis-ci.org/iTranslate/eddy-malou.svg?branch=master)](https://travis-ci.org/iTranslate/eddy-malou)
 
 ![Banner](img/banner.jpg "Eddy Malou s'explique")
 
