@@ -8,4 +8,4 @@ node_js:
   - "0.10"
   - "iojs"
 before_script: chmod 775 ./test/run_test.sh
-script: ./test/run_test.sh
+script: ./scripts/build.sh
