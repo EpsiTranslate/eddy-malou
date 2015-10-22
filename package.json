@@ -1,6 +1,6 @@
 {
   "name": "eddy-malou",
-  "version": "0.3",
+  "version": "0.0.3",
   "description": "L'extension officielle de la congolexicomatisation des lois du marché !",
   "main": "app.js",
   "scripts": {
