@@ -7,4 +7,5 @@ node_js:
   - "0.11"
   - "0.10"
   - "iojs"
-script: npm run build
+before_script: chmod 775 ./test/run_test.sh
+script: ./test/run_test.sh
