@@ -1,4 +1,4 @@
-language: node_js
+﻿language: node_js
 sudo: true
 node_js:
   - "4.1"
@@ -7,5 +7,4 @@ node_js:
   - "0.11"
   - "0.10"
   - "iojs"
-before_script: chmod 775 ./scripts/build.sh
-script: ./scripts/build.sh
+script: npm run build

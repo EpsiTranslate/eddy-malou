@@ -12,7 +12,7 @@ NodeJS >= 0.10
 ##Génération du fichier
 ```sh
   $ npm install -g browserify
-  $ npm build
+  $ npm run build
 ```
 
 ##L'équipe
