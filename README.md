@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 #Eddy-Malou [![Build Status](https://travis-ci.org/iTranslate/eddy-malou.svg?branch=master)](https://travis-ci.org/iTranslate/eddy-malou)
-=======
-#Eddy-Malou [![Build Status](https://travis-ci.org/MaloBlanchard/eddy-malou.svg?branch=master)](https://travis-ci.org/MaloBlanchard/eddy-malou)
->>>>>>> fix(eddy-malou): update owner name of the project
 
 ![Banner](img/banner.jpg "Eddy-Malou s'explique")
 
