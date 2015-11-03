@@ -5,13 +5,24 @@
   "author": "iTranslate",
   "license": "MIT",
   "main": "app.js",
+  "author": "iTranslate",
   "scripts": {
+<<<<<<< HEAD
     "build": "sh ./scripts/build.sh"
+=======
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sh scripts/build.sh",
+    "start": "echo \"Nothing to do\" && exit 1"
+>>>>>>> fix(eddy-malou): update owner name of the project
   },
   "repository": {
     "type": "git",
     "url": "git@github.com:iTranslate/eddy-malou.git"
   },
+<<<<<<< HEAD
+=======
+  "license": "MIT",
+>>>>>>> fix(eddy-malou): update owner name of the project
   "bugs": {
     "url": "https://github.com/iTranslate/eddy-malou/issues"
   },
