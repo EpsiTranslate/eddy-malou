@@ -1,6 +1,6 @@
-#Eddy Malou [![Build Status](https://travis-ci.org/iTranslate/eddy-malou.svg?branch=master)](https://travis-ci.org/iTranslate/eddy-malou)
+#Eddy-Malou [![Build Status](https://travis-ci.org/iTranslate/eddy-malou.svg?branch=master)](https://travis-ci.org/iTranslate/eddy-malou)
 
-![Banner](img/banner.jpg "Eddy Malou s'explique")
+![Banner](img/banner.jpg "Eddy-Malou s'explique")
 
 Bienvenue dans la politique prépositionnelle de la technicité IINNNformatisé, n'est-ce pas ?
 
@@ -16,7 +16,7 @@ NodeJS >= 0.10
 ```
 
 ##L'équipe
-  - Eddy Malou
+  - Eddy-Malou
   - Malo Blanchard
   - Romain Baumier
   - Nathan Badaud

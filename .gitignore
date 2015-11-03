@@ -2,7 +2,8 @@
 .localized
 __MACOSX
 Thumb.db
-congolexicomatisation.js
-./temp/
 app.js
 npm-debug.log
+node_modules/
+core/
+./temp/

@@ -1,19 +1,22 @@
-﻿{
+{
   "name": "eddy-malou",
-  "version": "0.0.3",
+  "version": "0.3.1",
   "description": "L'extension officielle de la congolexicomatisation des lois du marché !",
+  "author": "iTranslate",
+  "license": "MIT",
   "main": "app.js",
   "scripts": {
     "build": "sh ./scripts/build.sh"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MaloBlanchard/eddy-malou.git"
+    "url": "git@github.com:iTranslate/eddy-malou.git"
   },
-  "author": "Malo Blanchard",
-  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MaloBlanchard/eddy-malou/issues"
+    "url": "https://github.com/iTranslate/eddy-malou/issues"
   },
-  "homepage": "https://github.com/MaloBlanchard/eddy-malou"
+  "homepage": "https://github.com/iTranslate/eddy-malou",
+  "dependencies": {
+    "browserify": "^12.0.1"
+  }
 }
