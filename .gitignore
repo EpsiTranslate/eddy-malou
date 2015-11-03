@@ -4,6 +4,10 @@ __MACOSX
 Thumb.db
 app.js
 npm-debug.log
+<<<<<<< HEAD
 node_modules/
 core/
 ./temp/
+=======
+core/
+>>>>>>> fix(gitignore): add code/ to the list of ignored folders
