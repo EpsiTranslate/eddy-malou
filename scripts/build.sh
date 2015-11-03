@@ -1,5 +1,6 @@
 #!/usr/bin/env sh
 
+<<<<<<< HEAD
 # Retrieving iTranslate core
 rm -rf ./tmp/
 git clone https://github.com/iTranslate/core ./tmp/core/
@@ -12,3 +13,10 @@ cp ./src/dictionnaries.js ./tmp/core/src/
 npm install -g browserify
 browserify ./tmp/core/src/main.js -o ./congolexicomatisation.js
 rm -rf ./tmp/
+=======
+if [ ! -d "../core" ]; then
+  git clone git@github.com:iTranslate/core.git
+fi
+
+source core/scripts/.sh
+>>>>>>> fix(scripts): update build step to outsource the core's part
