@@ -5,6 +5,9 @@ Thumb.db
 app.js
 npm-debug.log
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fix(gitignore): add node_modules to the list of ignored folders
 node_modules/
 core/
 ./temp/
